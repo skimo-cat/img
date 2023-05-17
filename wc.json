@@ -1,0 +1,338 @@
+[
+{
+	"original_name": "Refugi de Certascan",
+	"name": "certascan",
+	"lat": 42.703879094880364,
+	"lon": 1.306534255667892,
+	"url": "https://app.projecte4estacions.com/snapshots/certascan-data.jpg",
+	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>"
+},
+{
+	"original_name": "Tavascan",
+	"name": "tavascan",
+	"lat": 42.67793113272643,
+	"lon":  1.2188494153941216,
+	"url": "https://app.projecte4estacions.com/snapshots/tavascan-data.jpg",
+	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>"
+},
+{
+	"original_name": "Refugi coma de Vaca",
+	"name": "coma-de-vaca",
+	"lat": 42.38531557911106,
+	"lon": 2.219074032131117 ,
+	"url": "https://app.projecte4estacions.com/snapshots/comadevaca-data.jpg",
+	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>"
+},
+{
+	"original_name": "Port de la Bonaigua",
+	"name": "bonaigua",
+	"lat": 42.66450215027099,
+	"lon": 0.9784883453641106,
+	"url": "https://app.projecte4estacions.com/snapshots/bonaigua-data.jpg",
+	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>"
+},
+{
+	"original_name": "Lles de Cerdanya",
+	"name": "lles",
+	"lat": 42.39182780949791,
+	"lon": 1.6871515423273076,
+	"url": "https://app.projecte4estacions.com/snapshots/llescerdanya-data.jpg",
+	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>"
+},
+{
+	"original_name": "Pic del Cubil (Vallnord)",
+	"name": "picdelcubil",
+	"lat": 42.5268,
+	"lon": 1.4562,
+	"url": "https://app.projecte4estacions.com/snapshots/picdelcubil-data.jpg",
+	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>"
+},
+{
+	"original_name": "La Peülla (2300m)",
+	"name": "peulla",
+	"lat": 42.6505,
+	"lon": 0.9861,
+	"url": "https://app.projecte4estacions.com/snapshots/peulla-data.jpg",
+	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>"
+},
+{
+	"original_name": "Refugi Montgarri",
+	"name": "montgarri",
+	"lat": 42.7593,
+	"lon":  0.9944,
+	"url": "https://app.projecte4estacions.com/snapshots/montgarri-data.jpg",
+	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>"
+},
+{
+	"original_name": "Els Plans (Canillo)",
+	"name": "canillo",
+	"lat": 42.5820,
+	"lon": 1.6328,
+	"url": "https://app.projecte4estacions.com/snapshots/canillo-data.jpg",
+	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>"
+},
+{
+	"original_name": "Refugi d'Amitges",
+	"name": "refugiamitges",
+	"lat": 42.59669865923409,
+	"lon": 0.9846112979924917,
+	"url": "https://app.projecte4estacions.com/snapshots/refugiamitges-data.jpg",
+	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>"
+},
+{
+	"original_name": "Refugi Niu l'Àliga",
+	"name": "niu-aliga",
+	"lat": 42.319535577948756,
+	"lon": 1.8932403807879012 ,
+	"url": "https://media.turismefgc.cat/lamolina/cam-niu.jpg",
+	"attribution": "<a href='https://www.turismefgc.cat/webcams/' target='_blank'>FGC Turisme</a>"
+},
+{
+	"original_name": "Torrent Negre (La Molina)",
+	"name": "torrent-negre-molina",
+	"lat": 42.32088555174131,
+	"lon": 1.9412621138172037,
+	"url": "https://media.turismefgc.cat/lamolina/torrent.jpg",
+	"attribution": "<a href='https://www.turismefgc.cat/webcams/' target='_blank'>FGC Turisme</a>"
+},
+{
+	"original_name": "Pic del Sergre i Coll de Finestrelles (Nuria)",
+	"name": "finestrelles-nuria",
+	"lat": 42.39814700833021,
+	"lon": 2.1523450795530157,
+	"url": "https://media.turismefgc.cat/valldenuria/nurialudic-nova.jpg",
+	"attribution": "<a href='https://www.turismefgc.cat/webcams/' target='_blank'>FGC Turisme</a>"
+},
+{
+	"original_name": "Estació Guils Fontanera",
+	"name": "guils",
+	"lat": 42.45874887250008,
+	"lon": 1.8444338728558147,
+	"url": "https://www.guils.com/camara/image.jpg",
+	"attribution": "<a href='https://www.guils.com/webcam' target='_blank'>Estació Guils Fontanera</a>"
+},
+{
+	"original_name": "Grandvalira - Pas de la Casa",
+	"name": "grandvalira-pas-de-la-casa",
+	"lat": 42.54098521357881,
+	"lon": 1.7331990704098854,
+	"url": "https://webtvpicture.feratel.com/picture/35/15055.jpeg?lg=ca",
+	"attribution": "<a href='https://www.grandvalira.com/ca/webcams-a-grandvalira' target='_blank'>Grandvalira</a>"
+},
+{
+	"original_name": "Arcalís Cap de la Coma (2554)",
+	"name": "arcalis-cap-coma",
+	"lat": 42.61782752434688,
+	"lon": 1.4856225894217137,
+	"url": "https://webtvpicture.feratel.com/picture/35/15030.jpeg?lg=ca",
+	"attribution": "<a href='https://www.grandvalira.com/ca/webcams-a-grandvalira' target='_blank'>Grandvalira</a>"
+},
+{
+	"original_name": "Grandvalira - Grau Roig",
+	"name": "grandvalira-grau-roig",
+	"lat": 42.53235094660112,
+	"lon": 1.6998252507839495,
+	"url": "https://webtvpicture.feratel.com/picture/35/15050.jpeg?lg=ca",
+	"attribution": "<a href='https://www.grandvalira.com/ca/webcams-a-grandvalira' target='_blank'>Grandvalira</a>"
+},
+{
+	"original_name": "Porté-Puymorens (Arribada Estanyol)",
+	"name": "porte-estanyol",
+	"lat": 42.5486,
+	"lon": 1.8085,
+	"url": "",
+	"attribution": "<a href='https://www.viewsurf.com/' target='_blank'>Viewsurf</a>"
+},
+{
+	"original_name": "Porté-Puymorens (Le Village)",
+	"name": "porte-le-village",
+	"lat": 42.54762531465034,
+	"lon": 1.8250669069878311,
+	"url": "",
+	"attribution": "<a href='https://www.viewsurf.com/univers/montagne/vue/17356-france-languedoc-roussillon-porte-puymorens-depart-telesiege-estagnol' target='_blank'>Viewsurf</a>"
+},
+{
+	"original_name": "Porté-Puymorens (La Vignole)",
+	"name": "porte-la-vignole",
+	"lat": 42.55578033285218,
+	"lon": 1.8058728776453312,
+	"url": "",
+	"attribution": "<a href='https://www.viewsurf.com/univers/montagne/vue/18848-france-languedoc-roussillon-porte-puymorens-la-vignole' target='_blank'>Viewsurf</a>"
+},
+{
+	"original_name": "Circ del Cambre d'Ase",
+	"name": "cambre-dase",
+	"lat": 42.49192277425417,
+	"lon": 2.120071615643021,
+	"url": "",
+	"attribution": "<a href='https://www.viewsurf.com/univers/montagne/vue/16542-france-languedoc-roussillon-saint-pierre-dels-forcats-montagne' target='_blank'>Viewsurf</a>"
+},
+{
+	"original_name": "Formigueres (estació)",
+	"name": "formigueres-estacio",
+	"lat": 42.623094592517326,
+	"lon": 2.0656681902763827,
+	"url": "",
+	"attribution": "<a href='https://www.viewsurf.com/univers/montagne/vue/14628-france-languedoc-roussillon-formigueres-la-station' target='_blank'>Viewsurf</a>"
+},
+{
+	"original_name": "Les Angles (Roc d'Aude)",
+	"name": "les-angles-roc-daude",
+	"lat": 42.57413036032272,
+	"lon": 2.041302915159572,
+	"url": "",
+	"attribution": "<a href='https://www.viewsurf.com/univers/montagne/vue/15734-france-languedoc-roussillon-les-angles-roc-daude' target='_blank'>Viewsurf</a>"
+},
+{
+	"original_name": "Llac de les Bulloses",
+	"name": "bulloses",
+	"lat": 42.562694897412754,
+	"lon": 1.996738775227371,
+	"url": "",
+	"attribution": "<a href='https://www.viewsurf.com/univers/plage/vue/12756-france-languedoc-roussillon-les-angles-le-lac-des-bouillouses' target='_blank'>Viewsurf</a>"
+},
+{
+	"original_name": "Mijanès (pistes)",
+	"name": "mijanes-pistes",
+	"lat": 42.72806,
+	"lon": 2.01709,
+	"url": "",
+	"attribution": "<a href='https://viewsurf.com/univers/montagne/vue/17728-france-midi-pyrenees-mijanes-les-pistes' target='_blank'>Viewsurf</a>"
+},
+{
+	"original_name": "Parking Beret (1800)",
+	"name": "parking-beret",
+	"lat": 42.72680517254074,
+	"lon": 0.9635464565368973,
+	"url": "https://baqueira-webcams.s3.amazonaws.com/miniaturas/1-Beret-parkingberet_1800_pos1-large.jpg",
+	"attribution": "<a href='https://www.baqueira.es/webcams' target='_blank'>Estació Baqueira/Beret</a>"
+},
+{
+	"original_name": "Clòt der Os",
+	"name": "clot-der-os",
+	"lat": 42.72394919563271,
+	"lon": 0.9641891328086309,
+	"url": "https://baqueira-webcams.s3.amazonaws.com/miniaturas/5-Beret-beret_clot_pos1-large.jpg",
+	"attribution": "<a href='https://www.baqueira.es/webcams' target='_blank'>Estació Baqueira/Beret</a>"
+},
+{
+	"original_name": "Argulls (Sector Bonaigua)",
+	"name": "baqueira-argulls",
+	"lat": 42.68341048703319,
+	"lon": 0.9660994696812171,
+	"url": "https://baqueira-webcams.s3.amazonaws.com/miniaturas/2-Bonaigua-argulls_2000_pos1-large.jpg",
+	"attribution": "<a href='https://www.baqueira.es/webcams' target='_blank'>Estació Baqueira/Beret</a>"
+},
+{
+	"original_name": "La Peülla (1900)",
+	"name": "baqueira-peulla",
+	"lat": 42.65375899883042,
+	"lon": 0.9994397804164752,
+	"url": "https://baqueira-webcams.s3.amazonaws.com/miniaturas/3-Bonaigua-peulla_1900_pos1-large.jpg",
+	"attribution": "<a href='https://www.baqueira.es/webcams' target='_blank'>Estació Baqueira/Beret</a>"
+},
+{
+	"original_name": "Pas de la Casa",
+	"name": "pas-de-la-casa",
+	"lat": 42.53652000589589,
+	"lon": 1.7163650725584203,
+	"url": "https://s1.vision-environnement.com/live/modules/timelapse/capture/pasdelacasa.jpg",
+	"attribution": "<a href='https://www.meteopyrenees.fr/pas-de-la-case-webcam/' target='_blank'>Meteo Pyrénées</a>"
+},
+{
+	"original_name": "Refugi de Malniu",
+	"name": "malniu",
+	"lat": 42.464255244941214,
+	"lon": 1.786473009099403,
+	"url": "https://app.projecte4estacions.com/snapshots/refugimalniu-data.jpg",
+	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>"
+},
+{
+	"original_name": "Port del Comte (1800)",
+	"name": "port-del-comte-1800",
+	"lat": 42.172439030667384,
+	"lon": 1.5619705919833302,
+	"url": "https://app.projecte4estacions.com/snapshots/portdelcomte-debutants-data.jpg",
+	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>"
+},
+{
+	"original_name": "Port del Comte (2110)",
+	"name": "port-del-comte-2110",
+	"lat": 42.159855414150925,
+	"lon": 1.557109706879419,
+	"url": "https://app.projecte4estacions.com/snapshots/portdelcomte1-data.jpg",
+	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>"
+},
+{
+	"original_name": "Vallter (2500)",
+	"name": "vallter",
+	"lat": 42.42614919342963,
+	"lon": 2.244622707366944,
+	"url": "https://app.projecte4estacions.com/snapshots/vallter.jpg",
+	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>"
+},
+{
+	"original_name": "Refugi de la Renclusa (2138)",
+	"name": "renclusa",
+	"lat": 42.669351690502005,
+	"lon": 0.6507917558141687,
+	"url": "https://prames.es/centralreservas/webrefugios/camaras/renclusa.jpg",
+	"attribution": "<a href='https://www.alberguesyrefugios.com/larenclusa/#gallery-webcam-refugio-1' target='_blank'>A&R</a>"
+},
+{
+	"original_name": "Llanos del Hospital",
+	"name": "llanos-del-hospital",
+	"lat": 42.68371175393413,
+	"lon": 0.6119179248448687,
+	"url": "https://www.llanosdelhospital.es/webcam1.jpg",
+	"attribution": "<a href='https://www.llanosdelhospital.com/' target='_blank'>Llanos del Hospital</a>"
+},
+{
+	"original_name": "Boí Taüll",
+	"name": "boi-taull",
+	"lat": 42.477796611134266,
+	"lon": 0.8692317095347676,
+	"url": "https://webtvpicture.feratel.com/picture/35/15100.jpeg?lg=ca",
+	"attribution": "<a href='https://www.boitaull.cat/es/webcams/' target='_blank'>Boí Taüll</a>"
+},
+{
+	"original_name": "Pica d'Estats (3143)",
+	"name": "pica",
+	"lat": 42.666946631043345,
+	"lon": 1.3979030950367732,
+	"url": "http://www.meteovallsdaneu.com/picaestats.jpg",
+	"attribution": "<a href='http://www.meteovallsdaneu.com/webcam_picaestats.php' target='_blank'>Meteo Valls d'Àneu</a>"
+},
+{
+	"original_name": "Espot (Pistes)",
+	"name": "espot",
+	"lat": 42.549110963649795,
+	"lon": 1.0784050460738182,
+	"url": "http://www.meteovallsdaneu.com/espot-pistes.jpg",
+	"attribution": "<a href='http://www.meteovallsdaneu.com/webcam_pistesespot.php' target='_blank'>Meteo Valls d'Àneu</a>"
+},
+{
+	"original_name": "Refugi Josep Maria Blanc Nord-Est (2350m)",
+	"name": "jmblanc",
+	"lat": 42.545649943546934,
+	"lon": 1.0440640975977145,
+	"url": "http://jmblanc.com/wp-content/uploads/jmblancne.php",
+	"attribution": "<a href='https://www.jmblanc.com/' target='_blank'>Refugi JM Blanc</a>"
+},
+{
+	"original_name": "Estany Gento - Vall Fosca (2141m)",
+	"name": "gento",
+	"lat": 42.510126564338556,
+	"lon": 1.0028223468929691,
+	"url": "http://www.meteovallsdaneu.com/gento.jpg",
+	"attribution": "<a href='http://www.meteovallsdaneu.com/webcam_gento.php' target='_blank'>Meteo Vall d'Àneu</a>"
+},
+{
+	"original_name": "Aneto (cara E, des del Montarto)",
+	"name": "aneto-montarto",
+	"lat": 42.631098864389536,
+	"lon": 0.6565899105113812,
+	"url": "http://www.meteovallsdaneu.com/aneto_montarto.jpg",
+	"attribution": "<a href='http://www.meteovallsdaneu.com/webcam_anetomontarto.php' target='_blank'>Meteo Valls d'Àneu</a>"
+}
+]
