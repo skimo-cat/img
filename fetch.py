@@ -17,11 +17,25 @@ MAX_IMAGES = 30
 
 SMARTYPLANET_URLS = {
     # https://aneto.smartyplanet.com/es/public/show/1830
-    'pico-aneto': 'https://aneto.smartyplanet.com/public/estacio/ajax/1830',
-    'glaciar-aneto': 'https://bielsa-aragnouet.smartyplanet.com/public/estacio/ajax/1632',
+    #'pico-aneto': 'https://aneto.smartyplanet.com/public/estacio/ajax/1830',
+    #'glaciar-aneto': 'https://bielsa-aragnouet.smartyplanet.com/public/estacio/ajax/1632',
     # https://bielsa-aragnouet.smartyplanet.com/es/public/show/1454
     'bielsa-boca-sud': 'https://bielsa-aragnouet.smartyplanet.com/public/estacio/ajax/1454'
 }
+
+# get month (1-12) with 0 padding (01,02,...,12)
+def get_month():
+    return str(datetime.now().month).zfill(2)
+
+def get_year():
+    return str(datetime.now().year)
+
+ARANTEC_URLS = {
+    'pico-aneto': f'https://arantec-ftp.s3.eu-west-2.amazonaws.com/?delimiter=cameras/005044&fetch-owner=false&list-type=2&prefix=cameras/005044/{get_year()}{get_month()}0',
+    'glaciar-aneto': f'https://arantec-ftp.s3.eu-west-2.amazonaws.com/?delimiter=cameras/005011&fetch-owner=false&list-type=2&prefix=cameras/005011/{get_year()}{get_month()}0'
+}
+
+ARANTEC_WCS = list(ARANTEC_URLS.keys())
 
 SMARTYPLANET_URL_TEMPLATE = 'https://s3-eu-west-2.amazonaws.com/smartyplanet-webcam-storage/{pic_partial_url}'
 SMARTYPLANET_WCS = list(SMARTYPLANET_URLS.keys())
@@ -70,6 +84,69 @@ def get_climaynievepirineos_token():
         print(f"Error getting climaynievepirineos token: {res.status_code}")
     return None
 
+async def fetch_arantec(session, wc, data):
+    try:
+        url = ARANTEC_URLS[wc['name']]
+        pic_url = ""
+        async with session.get(url) as resp:
+            resp_data = await resp.read()
+            if resp.status == 200 and len(resp_data) > 0:
+                """
+                <ListBucketResult>
+                <Name>arantec-ftp</Name>
+                <Prefix>cameras/005044/2024090</Prefix>
+                <KeyCount>56</KeyCount>
+                <MaxKeys>1000</MaxKeys>
+                <Delimiter>cameras/005044</Delimiter>
+                <IsTruncated>false</IsTruncated>
+                <Contents>
+                <Key>cameras/005044/20240901000537.jpg</Key>
+                <LastModified>2024-09-01T00:18:35.000Z</LastModified>
+                <ETag>"86651caa825acb883063677ff6c33a51"</ETag>
+                <Size>68090</Size>
+                <StorageClass>STANDARD</StorageClass>
+                </Contents>
+                ...
+                </ListBucketResult>
+                """
+                soup = BeautifulSoup(resp_data, 'html.parser')
+                contents = soup.find_all('contents')
+
+                datestr = contents[-1].key.text.split('/')[-1].split('.')[0]
+                date = datetime.strptime(datestr, '%Y%m%d%H%M%S')
+                now = datetime.utcnow()
+                if (date + timedelta(minutes=35)) < now:
+                    # Pic is older than 30 minutes
+                    print("ARANTEC picture is too old! Skipping")
+                    return
+
+                pic_url = f'https://arantec-ftp.s3.eu-west-2.amazonaws.com/{contents[-1].key.text}'
+
+    except Exception as e:
+        print('ERROR ARANTEC 1', e)
+        return
+
+    print(f"ARANTEC pic for {wc['name']}: {pic_url}")
+
+    try:
+        async with session.get(pic_url) as pic_resp:
+            ext = pic_url.split('.')[-1]
+            resp_data = await pic_resp.read()
+            now = time.time()
+            if pic_resp.status == 200 and len(resp_data) > 0:
+                img_path = f'img/{wc["name"]}-{str(int(now))}.{ext}'
+                print(f"Downloading {wc['name']} ({img_path})")
+                if ext == 'php':
+                    ext = 'jpg'
+                f = await aiofiles.open('img/{}-{}.{}'.format(wc['name'], str(int(now)), ext), mode='wb')
+                add_pic(data, wc, img_path, int(now))
+                await f.write(resp_data)
+                await f.close()
+            else:
+                print(f"Error getting viewsurf image {pic_url}")
+    except Exception as e:
+        print('ERROR ARANTEC 2', e)
+        return
 
 async def fetch_smartyplanet(session, wc, data):
     url = SMARTYPLANET_URLS[wc['name']]
@@ -168,6 +245,9 @@ def is_viewsurf_webcam(name):
 def is_smartyplanet_webcam(name):
     return name in SMARTYPLANET_WCS
 
+def is_arantec_webcam(name):
+    return name in ARANTEC_WCS
+
 def add_pic(data, wc, pic_path, t):
     target_element_idx = None
     for idx, elem in enumerate(data):
@@ -214,6 +294,8 @@ async def fetch(session, wc, data):
         await fetch_viewsurf(session, wc, data)
     elif is_smartyplanet_webcam(wc['name']):
         await fetch_smartyplanet(session, wc, data)
+    elif is_arantec_webcam(wc['name']):
+        await fetch_arantec(session, wc, data)
     else:
         if is_climaynievepirineos_webcam(wc['name']):
             url = url + f'?wck={CLIMAYNIEVEPIRINEOS_TOKEN}'
