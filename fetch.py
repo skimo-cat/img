@@ -31,8 +31,8 @@ def get_year():
     return str(datetime.now().year)
 
 ARANTEC_URLS = {
-    'pico-aneto': f'https://arantec-ftp.s3.eu-west-2.amazonaws.com/?delimiter=cameras/005044&fetch-owner=false&list-type=2&prefix=cameras/005044/{get_year()}{get_month()}0',
-    'glaciar-aneto': f'https://arantec-ftp.s3.eu-west-2.amazonaws.com/?delimiter=cameras/005011&fetch-owner=false&list-type=2&prefix=cameras/005011/{get_year()}{get_month()}0'
+    'pico-aneto': f'https://arantec-ftp.s3.eu-west-2.amazonaws.com/?delimiter=cameras/005044&fetch-owner=false&list-type=2&prefix=cameras/005044/{get_year()}{get_month()}',
+    'glaciar-aneto': f'https://arantec-ftp.s3.eu-west-2.amazonaws.com/?delimiter=cameras/005011&fetch-owner=false&list-type=2&prefix=cameras/005011/{get_year()}{get_month()}'
 }
 
 ARANTEC_WCS = list(ARANTEC_URLS.keys())
@@ -117,7 +117,7 @@ async def fetch_arantec(session, wc, data):
                 now = datetime.utcnow()
                 if (date + timedelta(minutes=35)) < now:
                     # Pic is older than 30 minutes
-                    print("ARANTEC picture is too old! Skipping")
+                    print(f"ARANTEC picture is too old! Skipping (curr_time={now}, wc_time={date})")
                     return
 
                 pic_url = f'https://arantec-ftp.s3.eu-west-2.amazonaws.com/{contents[-1].key.text}'

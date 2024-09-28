@@ -27,6 +27,33 @@
 	"related": ["finestrelles-nuria", "vallter"]
 },
 {
+	"original_name": "Bellver de Cerdanya",
+	"name": "bellver",
+	"lat": 42.369933782259565,
+	"lon": 1.7771914398905824,
+	"url": "https://app.projecte4estacions.com/snapshots/bellver-data.jpg",
+	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>",
+	"related": ["malniu", "lles", "niu-aliga"]
+},
+{
+	"original_name": "Bolvir",
+	"name": "bolvir",
+	"lat": 42.41818283960012,
+	"lon": 1.8787734086791548,
+	"url": "https://app.projecte4estacions.com/snapshots/bolvir-data.jpg",
+	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>",
+	"related": ["malniu", "lles", "niu-aliga"]
+},
+{
+	"original_name": "Andorra la Vella",
+	"name": "andorralavella",
+	"lat": 42.50610594727668,
+	"lon": 1.521588456528468,
+	"url": "https://app.projecte4estacions.com/snapshots/andorralavella-data.jpg",
+	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>",
+	"related": ["picdelcubil", "el-tarter", "arcalis-cap-coma"]
+},
+{
 	"original_name": "Port de la Bonaigua",
 	"name": "bonaigua",
 	"lat": 42.66450215027099,
