@@ -208,7 +208,7 @@
 	"name": "porte-la-mina",
 	"lat": 42.542604692246165,
 	"lon":  1.7743837017781148,
-	"url": "https://s1.vision-environnement.com/live/image/webcam/puymorens.JPG",
+	"url": "https://ipcamlive.com/player/snapshot.php?alias=triominesbas",
 	"attribution": "<a href='https://www.vision-environnement.com/livecams/webcam.php?webcam=puymorens' target='_blank'>Vision Environnement</a>",
 	"related": ["porte-la-vignole", "porte-estanyol", "porte-le-village"]
 },
@@ -265,24 +265,36 @@
 	"name": "parking-beret",
 	"lat": 42.72680517254074,
 	"lon": 0.9635464565368973,
-	"url": "https://baqueira-webcams.s3.amazonaws.com/miniaturas/2-Beret-parkingberet_1800_pos1-large.jpg",
-	"attribution": "<a href='https://www.baqueira.es/webcams' target='_blank'>Estació Baqueira/Beret</a>"
+	"url": "https://baqueira.s3.eu-central-1.amazonaws.com/webcams/miniaturas/1-Beret-beret_clot_pos11-large.jpg",
+	"attribution": "<a href='https://www.baqueira.es/webcams' target='_blank'>Estació Baqueira/Beret</a>",
+	"related": ["baqueira-argulls", "peulla", "tavascan"]
 },
 {
 	"original_name": "Argulls (Sector Bonaigua)",
 	"name": "baqueira-argulls",
 	"lat": 42.68341048703319,
 	"lon": 0.9660994696812171,
-	"url": "https://baqueira-webcams.s3.amazonaws.com/miniaturas/3-Bonaigua-argulls_2000_pos1-large.jpg",
-	"attribution": "<a href='https://www.baqueira.es/webcams' target='_blank'>Estació Baqueira/Beret</a>"
+	"url": "https://baqueira.s3.eu-central-1.amazonaws.com/webcams/miniaturas/1-Bonaigua-argulls_2000_pos2-large.jpg",
+	"attribution": "<a href='https://www.baqueira.es/webcams' target='_blank'>Estació Baqueira/Beret</a>",
+	"related": ["peulla", "parking-beret", "tavascan"]
 },
 {
-	"original_name": "Cap de Baqueira",
-	"name": "cap-de-baqueira",
-	"lat": 42.69232832646988,
-	"lon": 0.9756993025874879,
-	"url": "https://baqueira-webcams.s3.amazonaws.com/miniaturas/5-Baqueira-jordana_2500_pos7-large.jpg",
-	"attribution": "<a href='https://www.baqueira.es/webcams' target='_blank'>Estació Baqueira/Beret</a>"
+	"original_name": "Cap de Blanhiblar",
+	"name": "cap-de-blanhiblar",
+	"lat": 42.721069112331435,
+	"lon": 0.940813146564436,
+	"url": "https://baqueira.s3.eu-central-1.amazonaws.com/webcams/miniaturas/5-Baqueira-blanhiblar_2300_pos16-large.jpg",
+	"attribution": "<a href='https://www.baqueira.es/webcams' target='_blank'>Estació Baqueira/Beret</a>",
+	"related": ["baqueira-argulls", "peulla", "tavascan"]
+},
+{
+	"original_name": "Vistes Aneto (des de la Bonaigua)",
+	"name": "vistes-aneto-bonaigua",
+	"lat": 42.65812914505846,
+	"lon": 0.9801604436510211,
+	"url": "https://baqueira.s3.eu-central-1.amazonaws.com/webcams/miniaturas/2-Bonaigua-argulls_2000_pos9-large.jpg",
+	"attribution": "<a href='https://www.baqueira.es/webcams' target='_blank'>Estació Baqueira/Beret</a>",
+	"related": ["parking-beret", "pico-aneto", "glaciar-aneto"]
 },
 {
 	"original_name": "Pas de la Casa",
@@ -365,8 +377,8 @@
 	"name": "espot",
 	"lat": 42.549110963649795,
 	"lon": 1.0784050460738182,
-	"url": "http://www.meteovallsdaneu.com/espot-pistes.jpg",
-	"attribution": "<a href='http://www.meteovallsdaneu.com/webcam_pistesespot.php' target='_blank'>Meteo Valls d'Àneu</a>"
+	"url": "https://statics.3cat.cat/meteo/beauties/v1/img/9/0/16099609.jpg",
+	"attribution": "<a href='https://www.3cat.cat/el-temps/cameres/muntanya/' target='_blank'>3CAT</a>"
 },
 {
 	"original_name": "Refugi Josep Maria Blanc Nord-Est (2350m)",
