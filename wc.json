@@ -330,12 +330,12 @@
 	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>"
 },
 {
-	"original_name": "Vallter (2500)",
+	"original_name": "Vallter (2300)",
 	"name": "vallter",
 	"lat": 42.42614919342963,
 	"lon": 2.244622707366944,
-	"url": "https://app.projecte4estacions.com/snapshots/vallter.jpg",
-	"attribution": "<a href='https://www.projecte4estacions.com/' target='_blank'>Projecte 4 estacions</a>"
+	"url": "https://www.turismefgc.cat/content/comun/get-webcam.php?idioma=ca&web=4&cam=10",
+	"attribution": "<a href='https://www.turismefgc.cat/webcams/' target='_blank'>FGC Turisme</a>"
 },
 {
 	"original_name": "Refugi de la Renclusa (2138)",
@@ -377,8 +377,8 @@
 	"name": "espot",
 	"lat": 42.549110963649795,
 	"lon": 1.0784050460738182,
-	"url": "https://statics.3cat.cat/meteo/beauties/v1/img/9/0/16099609.jpg",
-	"attribution": "<a href='https://www.3cat.cat/el-temps/cameres/muntanya/' target='_blank'>3CAT</a>"
+	"url": "https://www.turismefgc.cat/content/comun/get-webcam.php?idioma=ca&web=6&cam=6",
+	"attribution": "<a href='https://www.turismefgc.cat/webcams/' target='_blank'>FGC Turisme</a>"
 },
 {
 	"original_name": "Refugi Josep Maria Blanc Nord-Est (2350m)",
@@ -683,7 +683,7 @@
 	"lat": 42.799,
 	"lon": -0.492,
 	"attribution": "<a href='https://www.candanchu.com' target='_blank'>Candanchú</a>",
-	"url": "https://astuncandanchu.com/camara/sarrios-aguila.jpg",
+	"url": "https://astuncandanchu.com/camara/aguila.jpg",
 	"related": ["candanchu-tuca-blanca", "astun-prado-blanco", "astun-canal-roya"]
 },
 {
