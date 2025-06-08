@@ -355,10 +355,7 @@ with open(WC_FILE, 'r') as f:
                 subprocess.run(f'convert {curr_path}/{pic_path} -resize 700 -strip {curr_path}/{pic_path}'.split(" "))
             elif ext == 'png':
                 subprocess.run(f'convert {curr_path}/{pic_path} -resize 700 -strip -quality 90 {curr_path}/{pic_path}'.split(" "))
-            else:
-                print(f"Unknown extension {ext} (file {pic_path})")
-
-            if ext != 'webp':
+            elif ext == 'webp':
                 res = subprocess.run(f'cwebp -q 80 {curr_path}/{pic_path} -o {curr_path}/{pic_path_webp}'.split(" "))
                 if res.returncode == 0:
                     subprocess.run(f'rm {curr_path}/{pic_path}'.split(" "))
